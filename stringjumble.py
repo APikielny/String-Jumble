@@ -28,21 +28,32 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 import sys
 
+#input
 stringinput=(input("Please enter a string of text (the bigger the better): "))
+thirdpart=stringinput
 liststringinput=list(stringinput)
+
+#reverse full string
 liststringinput.reverse()
 for x in liststringinput:
     sys.stdout.write(x)
 print("\n")
 
-# split the text
+#reverse words, not letters
 words = stringinput.split()
 
-    # for each word in the line:
 words.reverse()
 for word in words:
     sys.stdout.write(word + " ")
 
-morewords=str(liststringinput).split()
+print("\n")
+
+#reverse letters, not words
+morewords=thirdpart.split()
+
+newlist=[]
 for word in morewords:
+    word=word[::-1]
+    newlist.append(word)
+for word in newlist:
     sys.stdout.write(word + " ")
