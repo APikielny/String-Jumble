@@ -4,6 +4,7 @@ Author: Adam Pikielny
 Credit: http://stackoverflow.com/questions/493386/how-to-print-in-python-without-newline-or-space
 http://stackoverflow.com/questions/743806/split-string-into-a-list-in-python
 http://stackoverflow.com/questions/931092/reverse-a-string-in-python
+http://stackoverflow.com/questions/4630465/how-to-include-a-quote-in-a-raw-python-string
 
 Assignment:
 
