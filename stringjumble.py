@@ -43,8 +43,6 @@ words.reverse()
 for word in words:
     sys.stdout.write(word + " ")
 
-finalstring=str(liststringinput)
-text=finalstring.split()
-text.reverse()
-for word in text:
-    sys.stdout.write(word + " ")
+for word in words:
+    list(word).reverse()
+print(words)
