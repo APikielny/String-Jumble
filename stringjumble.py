@@ -31,6 +31,7 @@ import sys
 
 #input
 stringinput=(input("Please enter a string of text (the bigger the better): "))
+print('You entered "' + stringinput + '". Now jumble it:')
 thirdpart=stringinput
 liststringinput=list(stringinput)
 
